@@ -125,7 +125,7 @@ class GISL:
         g = geocoder.ip(ip)
         return g.latlng
     
-    def get_distance_between_coords(self, lat_lng: tuple[float] | list[float], lat_lng_: tuple[float] | list[float], km=True) -> float:
+    def get_distance_between_coords(self, lat_lng: tuple[float] | list[float], lat_lng_: tuple[float] | list[float], km: bool = True) -> float:
         """
         Returns the distance between two sets of coordinates.
 

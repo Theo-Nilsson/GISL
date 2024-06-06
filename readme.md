@@ -14,8 +14,7 @@ GISL is a Python library that provides functionality for various Geographic Info
 
 ## Installation
 
-You ~~can~~ install GISL via pip:\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 0.75rem;">*will be able to*</span>
+You can install GISL via pip:
 ```bash
 pip install gisl
 ```
