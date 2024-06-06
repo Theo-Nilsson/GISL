@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-from src.gisl_libinfo import Libinfo
+from GISL.gisl_libinfo import Libinfo
 import os
 
 here = os.path.abspath(os.path.dirname(__file__))
