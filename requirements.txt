@@ -1,0 +1,6 @@
+geopy==2.4.1
+geocoder==1.38.1
+pycountry==24.6.1
+pycountry_convert==0.7.2
+requests==2.32.3
+timezonefinder==6.5.0
