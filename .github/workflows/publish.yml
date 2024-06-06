@@ -23,6 +23,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install setuptools wheel
+          pip install geopy==2.4.1
+          pip install geocoder==1.38.1
+          pip install pycountry==24.6.1
+          pip install pycountry_convert==0.7.2
+          pip install requests==2.32.3
+          pip install timezonefinder==6.5.0
       - name: Build package
         run: |
           python setup.py sdist bdist_wheel  # Could also be python -m build
