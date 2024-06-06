@@ -5,7 +5,7 @@ class Libinfo:
     
     @staticmethod
     def get_version() -> str:
-        return "1.0.0"
+        return "1.0.1"
     
     @staticmethod
     def get_author(legal_name: bool = True) -> str:
